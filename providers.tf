@@ -11,10 +11,10 @@ terraform {
 # AWS provider block
 provider "aws" {
   # The region where the resources will be created
-  region = ""
+  region = "AWS Region"
 
   # The AWS profile to use
-  profile = ""
+  profile = "default"
 }
 
 # Note: The region and profile variables should be set in your
