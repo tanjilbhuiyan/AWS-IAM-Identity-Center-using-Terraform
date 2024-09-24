@@ -29,6 +29,9 @@ You can customize this Terraform configuration by modifying the `variables.tf` f
 - [outputs.tf](outputs.tf)
 - [variables.tf](variables.tf)
 - [sso](sso)
+  - [main.tf](main.tf)
+  - [outputs.tf](outputs.tf)
+  - [locals.tf](locals.tf)
   - [groups](modules/groups)
     - [main.tf](modules/groups/main.tf)
     - [outputs.tf](modules/groups/outputs.tf)
@@ -41,6 +44,4 @@ You can customize this Terraform configuration by modifying the `variables.tf` f
     - [main.tf](modules/users/main.tf)
     - [outputs.tf](modules/users/outputs.tf)
     - [variables.tf](modules/users/variables.tf)
-  - [main.tf](main.tf)
-  - [outputs.tf](outputs.tf)
-  - [locals.tf](locals.tf)
+
