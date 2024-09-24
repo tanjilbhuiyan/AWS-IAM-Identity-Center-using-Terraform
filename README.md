@@ -22,3 +22,22 @@ This Terraform configuration creates an AWS IAM Identity Center, including the r
 You can customize this Terraform configuration by modifying the `variables.tf` file. This file contains variables that can be used to customize the AWS IAM Identity Center configuration.
 
 
+## File Tree
+
+- [README.md](README.md)
+- [main.tf](main.tf)
+- [outputs.tf](outputs.tf)
+- [variables.tf](variables.tf)
+- [modules](modules)
+  - [groups](modules/groups)
+    - [main.tf](modules/groups/main.tf)
+    - [outputs.tf](modules/groups/outputs.tf)
+    - [variables.tf](modules/groups/variables.tf)
+  - [policy](modules/policy)
+    - [main.tf](modules/policy/main.tf)
+    - [outputs.tf](modules/policy/outputs.tf)
+    - [variables.tf](modules/policy/variables.tf)
+  - [users](modules/users)
+    - [main.tf](modules/users/main.tf)
+    - [outputs.tf](modules/users/outputs.tf)
+    - [variables.tf](modules/users/variables.tf)
